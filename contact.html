@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактна форма</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Линк за шрифт Roboto -->
+    <link rel="stylesheet" href="roboto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<script>
+    function submitFunc() {
+        let text = "Сигурни ли сте, че искате да продължите?";
+        if (confirm(text) == false) 
+        {
+            document.getElementById("formText").reset();
+        
+        }
+    }
+    </script>
+<body>
+    <header>
+        <h1>Контакт</h1>
+            
+          </header>
+    <div class="menu">
+    <ul> 
+        <li><a  href="/index.html">Начало</a></li>
+        <li><a  href="/table.html">Ястия</a></li>
+        <li><a  href="/contact.html">Контакт</a></li>
+        
+    </ul>
+</div>
+<div class="roboto-medium">
+<form id="formText">
+    <label for="name">Име:</label>
+    <input type="text" id="name" name="name">
+    <br><label for="faculty_number">Факултетен номер:</label>
+    <input type="text" id="faculty_number" name="faculty_number">
+    <br><label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <p><label for="message">Съобщение:</label></p>
+    <textarea id="message" name="message" rows="4" cols="20"></textarea><br>
+    <label for="priority">Приоритет:</label><br><br>
+    <input type="radio" id="low" name="priority" value="low">
+    <label for="low">Нисък</label><br><br>
+    <input type="radio" id="medium" name="priority" value="medium">
+    <label for="medium">Среден</label><br><br>
+    <input type="radio" id="high" name="priority" value="high">
+    <label for="high">Висок</label><br>
+    <input type="submit" id="buttons" value="Изпрати" onclick="submitFunc()">
+    <input type="reset" id="buttons" value="Изчисти"><br><br>
+</form>
+</div>
+<footer>
+    &copy; 2024 by Konstantin Tokov
+</div>
+</footer>
+</body>
+</html>

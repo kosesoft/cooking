@@ -1,0 +1,159 @@
+.menu
+{
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 100px;
+font-size: 20px;
+font-family: Roboto, sans-serif;
+}
+header
+{
+    margin-left: 350px;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    color:#4424D6;
+}
+.main
+{
+    margin-left:250px;
+    margin-right: 250px;
+    color: #342B09;
+    
+}
+#soups
+{
+    margin-top: -100px;
+    margin-left:350px;
+    margin-right: 3550px;
+}
+#text
+{
+    text-align: justify;
+
+}
+footer
+{
+    margin-left: 10px;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:#4424D6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1
+{
+    text-align: center;
+    margin-left: -350px;
+   
+}
+#contact
+{
+    margin-left: 650px;
+    color:#342B09;
+}
+
+#buttons
+{   background-color: #ff6600; /* избран цвят на фона за бутоните */
+    color: white; /* избран цвят на текста за бутоните */
+    border:#342B09;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+body
+{
+ background-color:#FCCB1A;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #DAD4F7;
+  }
+  
+  li a {
+    display: block;
+    color: #342B09;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #B89414;
+    color: #4424D6;
+    text-decoration: underline;
+  }
+
+  /* CSS за таблицата */
+  table {
+    border-collapse: collapse;
+    margin-top: -100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+#tablemenu
+{
+    text-align: center;
+}
+th {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+td, th {
+    border: 2px solid #4424D6; 
+    color: #342B09;
+    padding: 15px;
+    padding-left: 155px;
+    
+    
+}
+th{
+    font-family: Roboto;
+    
+
+}
+td
+{
+    font-family: Cambria;
+    text-align: left;
+}
+#formText {
+    /* margin: auto; */
+    margin-left: 500px;
+    margin-top: -100px;
+    width: 500px;
+    color: #342B09;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#formText label {
+    width: 150px;
+}
+
+#formText textarea {
+    width: 300px;
+}
+
+#formText .form-row {
+    display: flex;
+    align-items: center;
+}
+input, textarea {
+    background-color: #E8DEA9;
+    color: #ff6600;
+    border: none;
+    padding: 8px;
+    margin-left: 10px;
+    margin-bottom:2em;
+    border-radius: 5px; /*По този начин закръгляме текстовите полета*/
+}
+
+input[type="radio"] {
+    margin-left: 0;
+}
+
